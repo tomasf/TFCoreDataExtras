@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2F6CC441401055D008C744B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F6CC431401055D008C744B /* CoreData.framework */; };
+		E2F6CC461401055D008C744B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F6CC451401055D008C744B /* Foundation.framework */; };
+		E2F6CC491401055D008C744B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F6CC481401055D008C744B /* main.m */; };
+		E2F6CC4E1401055D008C744B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2F6CC4C1401055D008C744B /* Model.xcdatamodeld */; };
+		E2F6CC5D14010654008C744B /* TFCoreDataExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F6CC5C14010654008C744B /* TFCoreDataExtras.m */; };
+		E2F6CC61140107D1008C744B /* TFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F6CC60140107D1008C744B /* TFPerson.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E2F6CC3D1401055D008C744B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E2F6CC3F1401055D008C744B /* TFCoreDataExtrasTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TFCoreDataExtrasTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F6CC431401055D008C744B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E2F6CC451401055D008C744B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2F6CC481401055D008C744B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2F6CC4B1401055D008C744B /* TFCoreDataExtrasTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TFCoreDataExtrasTest-Prefix.pch"; sourceTree = "<group>"; };
+		E2F6CC4D1401055D008C744B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		E2F6CC5B14010654008C744B /* TFCoreDataExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCoreDataExtras.h; sourceTree = "<group>"; };
+		E2F6CC5C14010654008C744B /* TFCoreDataExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCoreDataExtras.m; sourceTree = "<group>"; };
+		E2F6CC5F140107D1008C744B /* TFPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFPerson.h; sourceTree = "<group>"; };
+		E2F6CC60140107D1008C744B /* TFPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFPerson.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2F6CC3C1401055D008C744B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F6CC441401055D008C744B /* CoreData.framework in Frameworks */,
+				E2F6CC461401055D008C744B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2F6CC341401055C008C744B = {
+			isa = PBXGroup;
+			children = (
+				E2F6CC471401055D008C744B /* TFCoreDataExtrasTest */,
+				E2F6CC421401055D008C744B /* Frameworks */,
+				E2F6CC401401055D008C744B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2F6CC401401055D008C744B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2F6CC3F1401055D008C744B /* TFCoreDataExtrasTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2F6CC421401055D008C744B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2F6CC431401055D008C744B /* CoreData.framework */,
+				E2F6CC451401055D008C744B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2F6CC471401055D008C744B /* TFCoreDataExtrasTest */ = {
+			isa = PBXGroup;
+			children = (
+				E2F6CC481401055D008C744B /* main.m */,
+				E2F6CC5E140107AD008C744B /* Model */,
+				E2F6CC5A14010654008C744B /* TFCoreDataExtras */,
+				E2F6CC4A1401055D008C744B /* Supporting Files */,
+			);
+			path = TFCoreDataExtrasTest;
+			sourceTree = "<group>";
+		};
+		E2F6CC4A1401055D008C744B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F6CC4B1401055D008C744B /* TFCoreDataExtrasTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2F6CC5A14010654008C744B /* TFCoreDataExtras */ = {
+			isa = PBXGroup;
+			children = (
+				E2F6CC5B14010654008C744B /* TFCoreDataExtras.h */,
+				E2F6CC5C14010654008C744B /* TFCoreDataExtras.m */,
+			);
+			path = TFCoreDataExtras;
+			sourceTree = SOURCE_ROOT;
+		};
+		E2F6CC5E140107AD008C744B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2F6CC4C1401055D008C744B /* Model.xcdatamodeld */,
+				E2F6CC5F140107D1008C744B /* TFPerson.h */,
+				E2F6CC60140107D1008C744B /* TFPerson.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2F6CC3E1401055D008C744B /* TFCoreDataExtrasTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F6CC531401055D008C744B /* Build configuration list for PBXNativeTarget "TFCoreDataExtrasTest" */;
+			buildPhases = (
+				E2F6CC3B1401055D008C744B /* Sources */,
+				E2F6CC3C1401055D008C744B /* Frameworks */,
+				E2F6CC3D1401055D008C744B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFCoreDataExtrasTest;
+			productName = TFCoreDataExtrasTest;
+			productReference = E2F6CC3F1401055D008C744B /* TFCoreDataExtrasTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2F6CC361401055C008C744B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Lighthead Software";
+			};
+			buildConfigurationList = E2F6CC391401055C008C744B /* Build configuration list for PBXProject "TFCoreDataExtrasTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2F6CC341401055C008C744B;
+			productRefGroup = E2F6CC401401055D008C744B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2F6CC3E1401055D008C744B /* TFCoreDataExtrasTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2F6CC3B1401055D008C744B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F6CC491401055D008C744B /* main.m in Sources */,
+				E2F6CC4E1401055D008C744B /* Model.xcdatamodeld in Sources */,
+				E2F6CC5D14010654008C744B /* TFCoreDataExtras.m in Sources */,
+				E2F6CC61140107D1008C744B /* TFPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E2F6CC511401055D008C744B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E2F6CC521401055D008C744B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E2F6CC541401055D008C744B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFCoreDataExtrasTest/TFCoreDataExtrasTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2F6CC551401055D008C744B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFCoreDataExtrasTest/TFCoreDataExtrasTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2F6CC391401055C008C744B /* Build configuration list for PBXProject "TFCoreDataExtrasTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F6CC511401055D008C744B /* Debug */,
+				E2F6CC521401055D008C744B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F6CC531401055D008C744B /* Build configuration list for PBXNativeTarget "TFCoreDataExtrasTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F6CC541401055D008C744B /* Debug */,
+				E2F6CC551401055D008C744B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2F6CC4C1401055D008C744B /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2F6CC4D1401055D008C744B /* Model.xcdatamodel */,
+			);
+			currentVersion = E2F6CC4D1401055D008C744B /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2F6CC361401055C008C744B /* Project object */;
+}
